@@ -1,5 +1,5 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
-
+ 
 local Window = Rayfield:CreateWindow({
    Name = "Blackirity's Cool Library",
    LoadingTitle = "GLORY TO BLACKIRITY BLACKITIRY IS THE BEST LEADER GOOD GOVERNMENT YES GOVERNMENT",
@@ -25,40 +25,40 @@ local Window = Rayfield:CreateWindow({
       Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
-
+ 
 local MainTab = Window:CreateTab("Script Library", nil) -- Title, Image
 local MainSection = MainTab:CreateSection(" ")
-
+ 
 local Button = MainTab:CreateButton({
    Name = "Infinite Yield",
    Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
    end,
 })
-
+ 
 local Button = MainTab:CreateButton({
    Name = "Symphony Hub (might be broken for some)",
    Callback = function()
         local a,b,c,d=loadstring,request or http_request or(http and http.request)or(syn and syn.request),assert,"https://lhr.synteamenv.workers.dev/?page=script"c(a and b,"Your executor does not support.")a(b({Url=d,Method="POST",Headers={["Authorization"]="revamp patch 2024"}}).Body)()
    end,
 })
-
+ 
 local Button = MainTab:CreateButton({
    Name = "Redz Hub",
    Callback = function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
    end,
 })
-
+ 
 local Button = MainTab:CreateButton({
    Name = "Eclipse Hub (fluxussy only)",
    Callback = function()
        getgenv().mainKey = "nil"
-
+ 
 local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https\58//api.eclipsehub.xyz/auth";c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
    end,
 })
-
+ 
 local Button = MainTab:CreateButton({
    Name = "BetterBypasser",
    Callback = function()
@@ -71,17 +71,17 @@ local Button = MainTab:CreateButton({
 })
    end,
 })
-
+ 
 local Button = MainTab:CreateButton({
    Name = "Highlight Hub key: indiscord",
    Callback = function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatSick/HighlightMM2/main/Main"))()
    end,
+})
 
 local Button = MainTab:CreateButton({
    Name = "R3TH PRIV V1",
    Callback = function()
        loadstring(game:HttpGet('https://raw.githubusercontent.com/R3TH-PRIV/R3THPRIV/main/loader.lua'))()
    end,
-})
 })
