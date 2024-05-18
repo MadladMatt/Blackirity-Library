@@ -72,13 +72,13 @@ local Button = MainTab:CreateButton({
    end,
 })
 
-local Button = Tab:CreateButton({
+local Button = MainTab:CreateButton({
    Name = "Highlight Hub key: indiscord",
    Callback = function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatSick/HighlightMM2/main/Main"))()
    end,
 
-local Button = Tab:CreateButton({
+local Button = MainTab:CreateButton({
    Name = "R3TH PRIV V1",
    Callback = function()
        loadstring(game:HttpGet('https://raw.githubusercontent.com/R3TH-PRIV/R3THPRIV/main/loader.lua'))()
